@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FatKick">
         <activity
+            android:name=".main.UpdateDailyTaskActivity"
+            android:exported="false" />
+        <activity
             android:name=".main.ShowDailyTaskActivity"
             android:exported="false" />
         <activity

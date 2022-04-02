@@ -42,7 +42,6 @@ public class ShowDailyTaskActivity extends AppCompatActivity implements DailyAct
         mtv_meditation = (TextView) findViewById(R.id.tv_meditation);
         mtv_sleep = (TextView) findViewById(R.id.tv_sleep);
 
-       // dailyActivity = new DailyActivity(0.0,"level_1",0.0,0.0,0.0);
         DailyActivityController dailyActivityController = new DailyActivityController();
         dailyActivityController.generateDailyActivity(age,gender,height,weight,activity_level);
         dailyActivityController.setActivityCallback(this);
@@ -57,8 +56,8 @@ public class ShowDailyTaskActivity extends AppCompatActivity implements DailyAct
             @Override
             public void run() {
                 //Handle UI here
-                mtv_calorie_intake.setText("Calorie Intake: "+dailyActivity.getCalorieIntake().toString()+" kcal");
-                mtv_activity_level.setText("Exercise: "+dailyActivity.getActivityLevel().toString());
+                mtv_calorie_intake.setText("Calorie Intake(Net): "+dailyActivity.getCalorieIntake().toString()+" kcal");
+                mtv_activity_level.setText("Activity Level: "+dailyActivity.getActivityLevel().toString());
                 mtv_water_intake.setText("Water Intake: Try to drink at least "+dailyActivity.getWaterIntake().toString()+" liters");
                 mtv_meditation.setText("Meditation: Try to meditate at least "+dailyActivity.getMeditation().toString()+" minutes");
                 mtv_sleep.setText("Sleep: Try to sleep at least "+dailyActivity.getSleep().toString()+" hours");

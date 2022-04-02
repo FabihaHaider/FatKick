@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FatKick</string>
+
+    <string-array name="activity_levels">
+        <item>100%</item>
+        <item>75%</item>
+        <item>50%</item>
+        <item>0%</item>
+    </string-array>
 </resources>

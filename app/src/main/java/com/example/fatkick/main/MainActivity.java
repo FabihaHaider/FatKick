@@ -91,6 +91,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mBtUpadate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, UpdateDailyTaskActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }
