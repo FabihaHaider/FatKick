@@ -18,6 +18,9 @@
             android:name=".main.ShowDailyTaskActivity"
             android:exported="false" />
         <activity
+            android:name=".main.FinalGoalActivity"
+            android:exported="false" />
+        <activity
             android:name=".main.MainActivity"
             android:exported="true">
             <intent-filter>
