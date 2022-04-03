@@ -8,7 +8,8 @@ public class DailyActivity {
     private Double meditation;    //in minutes
 
 
-    private Exercise[] exercise;
+    private Exercise[] exercise; //idx 0-> swimming, idx 1 -> running, idx 2-> walking, idx 3-> cycling
+    private int idx;
 
     public DailyActivity(Double calorieIntake, String activityLevel, Double waterIntake, Double sleep, Double meditation) {
         this.calorieIntake = calorieIntake;
@@ -16,6 +17,8 @@ public class DailyActivity {
         this.waterIntake = waterIntake;
         this.sleep = sleep;
         this.meditation = meditation;
+        exercise = new Exercise[10];
+        idx=0;
     }
 
     public Double getCalorieIntake() {
@@ -65,4 +68,10 @@ public class DailyActivity {
     public void setExercise(Exercise[] exercise) {
         this.exercise = exercise;
     }
+
+    public void addExercise(Exercise exc){
+        exercise[idx++] =  exc;
+
+    }
+
 }
