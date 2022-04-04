@@ -2,7 +2,7 @@ package com.example.fatkick.main;
 
 public class Exercise {
     private String type;
-    private Double duration; //duration in minutes
+    private Double duration; //duration in hour
 
 
     //constructor

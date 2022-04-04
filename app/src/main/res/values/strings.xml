@@ -1,12 +1,5 @@
 <resources>
     <string name="app_name">FatKick</string>
-
-    <string-array name="activity_levels">
-        <item>100%</item>
-        <item>75%</item>
-        <item>50%</item>
-        <item>0%</item>
-    </string-array>
     <string name="open_navigation_drawer">Open Navigation Drawer</string>
     <string name="close_navigation_drawer">Close Navigation Drawer</string>
     <string name="title_activity_final_goal">FinalGoalActivity</string>
