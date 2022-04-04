@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fatkick">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,12 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FatKick">
-        <activity
-            android:name=".main.UpdateDailyTaskActivity"
-            android:exported="false" />
-        <activity
-            android:name=".main.ShowDailyTaskActivity"
-            android:exported="false" />
         <activity
             android:name=".main.FinalGoalActivity"
             android:exported="false" />
