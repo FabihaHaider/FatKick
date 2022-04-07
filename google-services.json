@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739750589335",
+    "project_id": "fatkick-67f92",
+    "storage_bucket": "fatkick-67f92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739750589335:android:fb88d679e8e69a407a4ad2",
+        "android_client_info": {
+          "package_name": "com.example.fatkick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739750589335-iunpf8mnmpcecaj3ctaqptlubp292hbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcPp1gKKngcYDLm0vuGNHQwpUaIpjtO_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739750589335-iunpf8mnmpcecaj3ctaqptlubp292hbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ShowProfileActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Name: "
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:drawablePadding="10dp"
+        android:textCursorDrawable="@null"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/et_DOB"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Date of birth: "
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="10dp"
+        android:textCursorDrawable="@null"
+        android:layout_margin="20dp"
+        android:enabled="false"/>
+
+
+    <EditText
+        android:id="@+id/et_gender"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Gender: "
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="10dp"
+        android:textCursorDrawable="@null"
+        android:layout_margin="20dp"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Weight: "
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:drawablePadding="10dp"
+        android:textCursorDrawable="@null"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Height: "
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:drawablePadding="10dp"
+        android:textCursorDrawable="@null"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Email: "
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:drawablePadding="10dp"
+        android:textCursorDrawable="@null"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:enabled="false"/>
+
+</LinearLayout>
